@@ -2,5 +2,6 @@
 Console.WriteLine("Hello, World!");
 string greeting = "Hello";
 string greet = "World";
-object sumtogether = (greeting + " "+ greet);
-Console.WriteLine(sumtogether);
+string concat = (greeting + " "+ greet);
+object  objectGreetings = concat;
+Console.WriteLine(objectGreetings);
